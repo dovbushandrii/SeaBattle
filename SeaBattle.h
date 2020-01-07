@@ -50,13 +50,13 @@ public:
 	}
 	vector<vector<Field>> board;
 };	
-// Board - DONE
+
 
 class ConsoleVisualiser {
 public:
 	void coutboard(Board a);
 };
-// ConsoleVisualiser - DONE
+
 
 class Checker {
 public:
@@ -102,6 +102,6 @@ private:
 	void placesettedship(Shipinsetship ship, Board& d);
 	void moveship(Shipinsetship& ship, ShipMoves a);
 };
-// Setter - DONE
+
 
 
