@@ -9,9 +9,9 @@
 
 void SeaBattleGame::startgame() {
 	cout << "Welcome to the SeaBattle!\nPlease, enter first player name: ";
-	cin >> P1.name;
+	getline(cin,P1.name);
 	cout << "Please, enter second player name: ";
-	cin >> P2.name;
+	getline(cin,P2.name);
 	P1.number = Players::PLAYER1;
 	P2.number = Players::PLAYER2;
 	this->setgame();
