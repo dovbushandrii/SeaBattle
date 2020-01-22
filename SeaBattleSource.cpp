@@ -426,7 +426,7 @@ void Movemaker::makemove(Player &P1, Player &P2, int &move, int& shipnumb1, int&
 			while (!acception) {
 				cin.ignore();
 				string s;
-				cin >> s;
+				getline(cin,s);
 				s = coordinateconverter(s);
 				x = s[0] - '0';
 				y = s[1] - '0';
@@ -454,7 +454,7 @@ void Movemaker::makemove(Player &P1, Player &P2, int &move, int& shipnumb1, int&
 			while (!acception) {
 				cin.ignore();
 				string s;
-				cin >> s;
+				getline(cin,s);
 				s = coordinateconverter(s);
 				x = s[0] - '0';
 				y = s[1] - '0';
